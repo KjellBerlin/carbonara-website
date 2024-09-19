@@ -25,11 +25,11 @@
 
 .App div:first-child {
   font-family: 'Next Sphere Black', sans-serif;
-  font-size: 7vw; /* Use viewport width for scaling */
+  font-size: 8vw;
 }
 
 .App div:last-child {
   font-family: 'Next Sphere Thin', sans-serif;
-  font-size: 2vw; /* Viewport width ensures it scales */
-  margin-top: 2vw; /* Space between the two lines, also in vw for responsiveness */
+  font-size: 3vw;
+  margin-top: 2vw;
 }
