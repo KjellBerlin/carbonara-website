@@ -28,8 +28,19 @@
   font-size: 8vw;
 }
 
-.App div:last-child {
+.App div:nth-child(2) {
   font-family: 'Next Sphere Thin', sans-serif;
   font-size: 3vw;
   margin-top: 2vw;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 0.01em;
+  margin-left: 0.3vw;
+}
+
+.link:hover {
+  text-decoration: none;
 }
