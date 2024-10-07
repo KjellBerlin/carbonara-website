@@ -1,46 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
 @font-face {
-  font-family: 'Next Sphere Black';
-  src: url('/public/fonts/Next-Sphere-Black.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Next Sphere Black';
+    src: url('/public/fonts/Next-Sphere-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Next Sphere Thin';
-  src: url('/public/fonts/Next-Sphere-Thin.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Next Sphere Thin';
+    src: url('/public/fonts/Next-Sphere-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: black;
-  color: white;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 .App div:first-child {
-  font-family: 'Next Sphere Black', sans-serif;
-  font-size: 8vw;
+    font-family: 'Next Sphere Black', sans-serif !important;
+    font-size: 8vw;
 }
 
 .App div:nth-child(2) {
-  font-family: 'Next Sphere Thin', sans-serif;
-  font-size: 3vw;
-  margin-top: 2vw;
+    font-family: 'Next Sphere Thin', sans-serif !important;
+    font-size: 3vw;
+    margin-top: 2vw;
+}
+
+.App div:nth-child(3) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4vw;
+    margin-top: 4vw;
+    max-width: 60%;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .App div:first-child {
+        font-size: 9vw;
+    }
+    .App div:nth-child(2) {
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    .App div:nth-child(3) {
+        font-size: 3vw;
+        max-width: 80%;
+        margin-top: 6vw;
+    }
 }
 
 .link {
-  color: white;
-  text-decoration: underline;
-  text-decoration-thickness: 0.01em;
-  margin-left: 0.3vw;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 0.01em;
+    margin-left: 0.3vw;
 }
 
 .link:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
